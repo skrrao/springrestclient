@@ -19,7 +19,8 @@ public class RestclientApplication {
     public String getHelloWorld() {
         RestTemplate template = new RestTemplate();
         String myString=null;
-        myString = template.getForObject("http://35.188.237.159:8080/helloworld", String.class);
+        //myString = template.getForObject("http://35.188.237.159:8080/helloworld", String.class);
+        myString = template.getForObject("http://localhost:8080/helloworld", String.class);
         return myString;
     }
 
