@@ -13,11 +13,14 @@
     <version>0.0.1-SNAPSHOT</version>
     <name>restclient</name>
     <description>Demo project for Spring Boot</description>
-
-    <properties>
-        <docker.image.prefix>sirivolu</docker.image.prefix>
-        <java.version>1.8</java.version>
-    </properties>
+         <properties>
+           <sonar.projectKey>skrrao_springrestclient</sonar.projectKey>
+           <sonar.organization>skrrao</sonar.organization>
+           <sonar.host.url>https://sonarcloud.io</sonar.host.url>
+           <sonar.login>1886ec4f9d3aa2da4d4afcd33aefbe4c15fe108e</sonar.login>
+           <docker.image.prefix>sirivolu</docker.image.prefix>
+           <java.version>1.8</java.version>         
+         </properties>
 
     <dependencies>
         <dependency>
